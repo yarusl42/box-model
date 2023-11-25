@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+body {
+  display: flex;
+  margin: 20px;
+  
+  
+}
+.rectangle {
+  width: 100px;
+  height: 100px;
+  border: 2px solid red;
+  margin: 20px;
+  padding: 15px;
+  background: white;
+}
+
+.rectangle_wrapper {
+  background: gray;
+}
+
+.controlls {
+  display: flex;
+  margin-left: 10px;
+}
+
+.controlls__items {
+  margin-left: 10px;
+}
+
+label {
+  display: block;
+  user-select: none;
+}
+
+input {
+  margin-bottom: 5px;
+}
